@@ -13,6 +13,8 @@
 		755FE9141C6CB8FE00BDFAFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755FE9131C6CB8FE00BDFAFE /* Images.xcassets */; };
 		755FE9171C6CB8FE00BDFAFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 755FE9151C6CB8FE00BDFAFE /* LaunchScreen.xib */; };
 		755FE9231C6CB8FE00BDFAFE /* clapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755FE9221C6CB8FE00BDFAFE /* clapTests.swift */; };
+		755FE92D1C6CB94600BDFAFE /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 755FE92C1C6CB94600BDFAFE /* clap-button.png */; };
+		755FE92F1C6CB96000BDFAFE /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 755FE92E1C6CB96000BDFAFE /* clap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		755FE91C1C6CB8FE00BDFAFE /* clapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		755FE9211C6CB8FE00BDFAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		755FE9221C6CB8FE00BDFAFE /* clapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clapTests.swift; sourceTree = "<group>"; };
+		755FE92C1C6CB94600BDFAFE /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap-button.png"; sourceTree = "<group>"; };
+		755FE92E1C6CB96000BDFAFE /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		755FE9091C6CB8FE00BDFAFE /* clap */ = {
 			isa = PBXGroup;
 			children = (
+				755FE92E1C6CB96000BDFAFE /* clap.wav */,
+				755FE92C1C6CB94600BDFAFE /* clap-button.png */,
 				755FE90C1C6CB8FE00BDFAFE /* AppDelegate.swift */,
 				755FE90E1C6CB8FE00BDFAFE /* ViewController.swift */,
 				755FE9101C6CB8FE00BDFAFE /* Main.storyboard */,
@@ -192,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755FE92F1C6CB96000BDFAFE /* clap.wav in Resources */,
 				755FE9121C6CB8FE00BDFAFE /* Main.storyboard in Resources */,
 				755FE9171C6CB8FE00BDFAFE /* LaunchScreen.xib in Resources */,
 				755FE9141C6CB8FE00BDFAFE /* Images.xcassets in Resources */,
+				755FE92D1C6CB94600BDFAFE /* clap-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
